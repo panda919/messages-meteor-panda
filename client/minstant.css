@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+
+.user_avatar{
+	min-height:100px;
+	text-align: center;
+
+}
+.avatar_img{
+	height:75px;
+}
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+  	background: #d9f0d3;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+    background: #d8daeb;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #333333;
+}
